@@ -11,12 +11,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-<<<<<<< Updated upstream
   m_ValidKeywords:
   - _NORMALMAP
-=======
-  m_ValidKeywords: []
->>>>>>> Stashed changes
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -31,19 +27,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: f13a9cc62ace0774bbf1577c7e8f89be, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: 4e7b30bd57469204685615d5b0859886, type: 3}
-=======
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
->>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -51,11 +39,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: 709cb1328dd32e9459d642aa5e2c44ea, type: 3}
-=======
-        m_Texture: {fileID: 0}
->>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -67,11 +51,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: f13a9cc62ace0774bbf1577c7e8f89be, type: 3}
-=======
-        m_Texture: {fileID: 0}
->>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
