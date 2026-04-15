@@ -1,0 +1,623 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.0f1 (d1870ce95baf) revision 13731596'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'ru' Physical Memory: 15690 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-polya" at "2026-04-15T09:27:32.2284767Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-04-15T09:27:32Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.0f1-x86_64\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/polya/Desktop/Работы 3D/прога/vr-game
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+52069
+-licensingIpc
+LicenseClient-polya
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/polya/Desktop/Работы 3D/прога/vr-game
+C:/Users/polya/Desktop/Работы 3D/прога/vr-game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [76720]  Target information:
+
+Player connection [76720]  * "[IP] 10.91.107.81 [Port] 0 [Flags] 2 [Guid] 3298564844 [EditorId] 3298564844 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2U4C9NG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [76720] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [76720] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 23.87 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.0f1 (d1870ce95baf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.0f1-x86_64/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/polya/Desktop/Работы 3D/прога/vr-game/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.0f1-x86_64/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.0f1-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.0f1-x86_64/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.0f1-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002279 seconds.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              9b81050798c745fdb5b886dba673ee88
+  Correlation Id:          0a5c027ee5a54999421914d6600d206d
+  External correlation Id: 9064301496913391104
+  Machine Id:              +axZLEZb3TzWorJB7ksBM9dNpbE=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-polya" (connect: 0.00s, validation: 0.00s, handshake: 1.57s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-polya-notifications" at "2026-04-15T09:27:33.7960193Z"
+[Licensing::Module] Licensing Background thread has ended after 1.57s
+- Loaded All Assemblies, in  0.621 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1110ms
+	BeginReloadAssembly (222ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (231ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (206ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972377622395-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.929 seconds
+Refreshing native plugins compatible for Editor in 12.05 ms, found 8 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 1896ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (408ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (187ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (975ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (804ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (229ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 10.46 ms, found 8 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6207 unused Assets / (9.0 MB). Loaded Objects now: 7021.
+Memory consumption went from 151.4 MB to 142.4 MB.
+Total: 19.155400 ms (FindLiveObjects: 0.795800 ms CreateObjectMapping: 0.868300 ms MarkObjects: 8.534500 ms  DeleteObjects: 8.955000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 53494.365189 seconds.
+  path: Assets/Art/Cans/Can_02/Beef/M_Beef_Food.mat
+  artifactKey: Guid(1608fb4005d2d714cbe85ba0c2790ad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Beef/M_Beef_Food.mat using Guid(1608fb4005d2d714cbe85ba0c2790ad4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2e65683e5932104f4a851662c4d8f50') in 0.1861626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Cans/Can_02/Beef/Can 02lp _M_Food_01.001_BaseMap.png
+  artifactKey: Guid(742d78d29bfeb7f40a9259a84e4cce63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Beef/Can 02lp _M_Food_01.001_BaseMap.png using Guid(742d78d29bfeb7f40a9259a84e4cce63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5eda8c907be70fec45cc6e81b207896c') in 0.0794762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 240.736386 seconds.
+  path: Assets/Art/Cans/Can 02lp _M_Can_01.001_MaskMap.png
+  artifactKey: Guid(d14ff1eb8c80aff4f8ebaf4e721561cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can 02lp _M_Can_01.001_MaskMap.png using Guid(d14ff1eb8c80aff4f8ebaf4e721561cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e985a41d665ae40f7d9ddaadfbee63a3') in 0.1219395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Cans/Can 02lp _M_Can_01.001_Normal.png
+  artifactKey: Guid(ebdc0eb186eb04f44bd9546883cfaac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can 02lp _M_Can_01.001_Normal.png using Guid(ebdc0eb186eb04f44bd9546883cfaac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3e2e0f1cc5dbea57f6a8f90cdbeaf9e') in 0.0324643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Cans/Can 02lp _M_Food_01.001_Normal.png
+  artifactKey: Guid(aa3ee7a5700808441bedeadc20e72533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can 02lp _M_Food_01.001_Normal.png using Guid(aa3ee7a5700808441bedeadc20e72533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f9a8d124d7a89cab0ec01e15314b6a4') in 0.0154696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.562931 seconds.
+  path: Assets/Art/Cans/Can 02lp _M_Can_01.001_BaseMap.png
+  artifactKey: Guid(fb3a1087c0ed040409acc4dc98425ca2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can 02lp _M_Can_01.001_BaseMap.png using Guid(fb3a1087c0ed040409acc4dc98425ca2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9be3c7c8497dc0357487431cfe3d53b8') in 0.0273524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Cans/Can 02lp _M_Food_01.001_Normal.png
+  artifactKey: Guid(aa3ee7a5700808441bedeadc20e72533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can 02lp _M_Food_01.001_Normal.png using Guid(aa3ee7a5700808441bedeadc20e72533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed5ef7b092653b058d09abc352d67470') in 0.0251189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Cans/Can 02lp _M_Food_01.001_BaseMap.png
+  artifactKey: Guid(77e5ad1b51c445a4e9fd0c6bb056fc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can 02lp _M_Food_01.001_BaseMap.png using Guid(77e5ad1b51c445a4e9fd0c6bb056fc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6fd8ff01fa923813310e15daa1bf3cc') in 0.024723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.263059 seconds.
+  path: Assets/Art/Cans/Can_02/Can 02lp _M_Food_01.001_Normal.png
+  artifactKey: Guid(aa3ee7a5700808441bedeadc20e72533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Can 02lp _M_Food_01.001_Normal.png using Guid(aa3ee7a5700808441bedeadc20e72533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb94fb911a64f283d2bddf02c263e287') in 0.0210238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Cans/Can_02/Can 02lp _M_Can_01.001_BaseMap.png
+  artifactKey: Guid(fb3a1087c0ed040409acc4dc98425ca2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Can 02lp _M_Can_01.001_BaseMap.png using Guid(fb3a1087c0ed040409acc4dc98425ca2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66f35a4cd53a6cb4e10f7f97e01d6b31') in 0.0209118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Cans/Can_02/Can 02lp _M_Food_01.001_BaseMap.png
+  artifactKey: Guid(77e5ad1b51c445a4e9fd0c6bb056fc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Can 02lp _M_Food_01.001_BaseMap.png using Guid(77e5ad1b51c445a4e9fd0c6bb056fc06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33effa31dec1f34107174f9562568be0') in 0.0232164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.929215 seconds.
+  path: Assets/Art/Cans/Can_01/GrBeans/M_GrBeans_Food.mat
+  artifactKey: Guid(26151797c03bbf2429d375f3b24bc0c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_01/GrBeans/M_GrBeans_Food.mat using Guid(26151797c03bbf2429d375f3b24bc0c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '671fd5a4b5e7f6f6a09af71b295c0662') in 0.0316617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.011068 seconds.
+  path: Assets/Art/Cans/Can_02/Salmon/Can 02lp _M_Food_01.001_Normal.png
+  artifactKey: Guid(aa3ee7a5700808441bedeadc20e72533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Salmon/Can 02lp _M_Food_01.001_Normal.png using Guid(aa3ee7a5700808441bedeadc20e72533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a0a6af11e031b256b7388fbd7d9248c') in 0.0257461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Cans/Can_02/Salmon/Can 02lp _M_Can_01.001_MaskMap.png
+  artifactKey: Guid(d14ff1eb8c80aff4f8ebaf4e721561cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Salmon/Can 02lp _M_Can_01.001_MaskMap.png using Guid(d14ff1eb8c80aff4f8ebaf4e721561cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c4b41c4851d08ba17a43c3157b31f55') in 0.0256497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.737602 seconds.
+  path: Assets/Art/Cans/Can_02/Salmon/M_Salmon_Food.mat
+  artifactKey: Guid(5f5a8e464d5d93342953b59ef7650f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/Salmon/M_Salmon_Food.mat using Guid(5f5a8e464d5d93342953b59ef7650f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a29058ad4c6e90476e42b0f3beb32c8') in 0.6486539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274384 seconds.
+  path: Assets/Art/Cans/Can_02/Salmon/M_Salmon.mat
+  artifactKey: Guid(2f7824cdb05cc8b4ea500899b38f0c4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Salmon/M_Salmon.mat using Guid(2f7824cdb05cc8b4ea500899b38f0c4f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ad7c650483ba0c0f8c8ca7c732e5980') in 0.0283694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.629189 seconds.
+  path: Assets/Art/Cans/Prefabs/P_GrBeans.prefab
+  artifactKey: Guid(e64b0a47b008d764f8f474e81f83574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Prefabs/P_GrBeans.prefab using Guid(e64b0a47b008d764f8f474e81f83574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'faae99305fddc9fb4555d7bfbd783caa') in 0.1115132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.704120 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Can_01.001_MaskMap.png
+  artifactKey: Guid(c01f7cf21559b2842b89e14ce1eaf2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Can_01.001_MaskMap.png using Guid(c01f7cf21559b2842b89e14ce1eaf2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd6c3974773b78e42eaade1f15791cb3') in 0.0202957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_MaskMap.png
+  artifactKey: Guid(c1a7a43e0fc10844ab3ec939181ca742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_MaskMap.png using Guid(c1a7a43e0fc10844ab3ec939181ca742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b66ee14a29225e9729abc4867fbd458d') in 0.0188834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_BaseMap.png
+  artifactKey: Guid(28824fb2cae387340b96383ad14247d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_BaseMap.png using Guid(28824fb2cae387340b96383ad14247d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e60f9d29a46a267276fcc0263b457d2') in 0.0273809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.070981 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_MaskMap.png
+  artifactKey: Guid(c1a7a43e0fc10844ab3ec939181ca742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_MaskMap.png using Guid(c1a7a43e0fc10844ab3ec939181ca742) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a16f00dfde87b669e6b3a7fe8c43f42f') in 0.0277637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_BaseMap.png
+  artifactKey: Guid(28824fb2cae387340b96383ad14247d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Food_01.001_BaseMap.png using Guid(28824fb2cae387340b96383ad14247d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ada5a82942c0d99c5da06afc7520240d') in 0.0252374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Can_01.001_MaskMap.png
+  artifactKey: Guid(c01f7cf21559b2842b89e14ce1eaf2fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Chicken/Can 02lp _M_Can_01.001_MaskMap.png using Guid(c01f7cf21559b2842b89e14ce1eaf2fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd93cfe6075243a4cfea79da38931c832') in 0.024657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.678200 seconds.
+  path: Assets/Art/Cans/Can_02/Salmon/M_Salmon_Food.mat
+  artifactKey: Guid(5f5a8e464d5d93342953b59ef7650f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Salmon/M_Salmon_Food.mat using Guid(5f5a8e464d5d93342953b59ef7650f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4ddc46e98ea4ca75995787107cb22b0') in 0.0318811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.145417 seconds.
+  path: Assets/Art/Cans/Prefabs/P_Salmon.prefab
+  artifactKey: Guid(f258516e9b3c48c4dbd9f1d575e65213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Prefabs/P_Salmon.prefab using Guid(f258516e9b3c48c4dbd9f1d575e65213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9843c3b55af5afd961ad0e51c9c78a9') in 0.0739811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.490297 seconds.
+  path: Assets/Art/Cans/Can_02/Chicken/M_Chicken.mat
+  artifactKey: Guid(c8b2449bdf59e144ba3e2c988118ba5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/Chicken/M_Chicken.mat using Guid(c8b2449bdf59e144ba3e2c988118ba5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1eaf3ed6639a104fa8f95b7355bd101') in 0.0377499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.110333 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Can_01.001_MaskMap.png
+  artifactKey: Guid(a98c2b2de2eb1bc4295379247bc93aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Can_01.001_MaskMap.png using Guid(a98c2b2de2eb1bc4295379247bc93aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebd3a127eb4a9c4b11f0b282115247e3') in 0.0199588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Food_01.001_BaseMap.png
+  artifactKey: Guid(ba576f138cd356145924e354a3dbd1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Food_01.001_BaseMap.png using Guid(ba576f138cd356145924e354a3dbd1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6d6169a56d6eba30dd4ec19d4f4d169') in 0.0338357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Food_01.001_Normal.png
+  artifactKey: Guid(e1bbe211a584cb840b2c172fba5bc194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Food_01.001_Normal.png using Guid(e1bbe211a584cb840b2c172fba5bc194) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c4abf2cdb5ec61ff8d0cb0bb604d364') in 0.0164629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.651483 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Can_01.001_MaskMap.png
+  artifactKey: Guid(a98c2b2de2eb1bc4295379247bc93aaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Can_01.001_MaskMap.png using Guid(a98c2b2de2eb1bc4295379247bc93aaf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5436a11c39703c8591c635b057eabd2a') in 0.0270684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Can_01.001_Normal.png
+  artifactKey: Guid(f07086da1b74e7a469c2e27dd1650e9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Can_01.001_Normal.png using Guid(f07086da1b74e7a469c2e27dd1650e9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99a3594ee35e929f1ea4c1a3f0cf33e4') in 0.0246654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Food_01.001_Normal.png
+  artifactKey: Guid(e1bbe211a584cb840b2c172fba5bc194) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/Can 02lp _M_Food_01.001_Normal.png using Guid(e1bbe211a584cb840b2c172fba5bc194) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a80f099590b9955eb178ea56baafadf') in 0.0277161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.022380 seconds.
+  path: Assets/Art/Cans/Prefabs/P_Chicken.prefab
+  artifactKey: Guid(cf1865a783a770a48ab438f60fa8902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Prefabs/P_Chicken.prefab using Guid(cf1865a783a770a48ab438f60fa8902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a66542a36412f6eafc5047883949e89') in 0.0772388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 133.807528 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_MaskMap.png
+  artifactKey: Guid(570f3c59ca357b24bbf7aa345bc2bb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_MaskMap.png using Guid(570f3c59ca357b24bbf7aa345bc2bb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f906b6b3c429f03a905e2c0c5d1cfd') in 0.0346852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.004_BaseMap.png
+  artifactKey: Guid(30d9b8f6ea385a74d89248d2ab36a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.004_BaseMap.png using Guid(30d9b8f6ea385a74d89248d2ab36a115) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e864ef285748cea54cf4a195c3553525') in 0.0340215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_Normal.png
+  artifactKey: Guid(704f35a059aaf2f4fb68308c7ae1777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_Normal.png using Guid(704f35a059aaf2f4fb68308c7ae1777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8f11eff5d6de83a3240bb91702404d5') in 0.0305488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_BaseMap.png
+  artifactKey: Guid(52bb0d4609d617944a2f500f405beb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_BaseMap.png using Guid(52bb0d4609d617944a2f500f405beb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '463beb2bd6b7851f0b867c4cfaf506dc') in 0.0240705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_Normal.png
+  artifactKey: Guid(a1bab2bf397ce334084a31fa3e46e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_Normal.png using Guid(a1bab2bf397ce334084a31fa3e46e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ebdc4e211390ce5ecac4ee7d0c12dbf') in 0.0296037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Food_03_MaskMap.png
+  artifactKey: Guid(b959cace7277a8c42b240540c6aa7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Food_03_MaskMap.png using Guid(b959cace7277a8c42b240540c6aa7d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7868616ea000cd14da207baf932e150') in 0.0230795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.351808 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Food_03_MaskMap.png
+  artifactKey: Guid(b959cace7277a8c42b240540c6aa7d20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Food_03_MaskMap.png using Guid(b959cace7277a8c42b240540c6aa7d20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0edc6991498e2c1ff496ec837c744a3') in 0.0290818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_BaseMap.png
+  artifactKey: Guid(52bb0d4609d617944a2f500f405beb99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_BaseMap.png using Guid(52bb0d4609d617944a2f500f405beb99) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66c1b0acc7a6ad6c3410ddbb7a6fbb66') in 0.0245039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_Normal.png
+  artifactKey: Guid(704f35a059aaf2f4fb68308c7ae1777c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_Normal.png using Guid(704f35a059aaf2f4fb68308c7ae1777c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ab3b03426bb63e579abe5ece6ed8496') in 0.0243261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_Normal.png
+  artifactKey: Guid(a1bab2bf397ce334084a31fa3e46e1be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.003_Normal.png using Guid(a1bab2bf397ce334084a31fa3e46e1be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9882640dacdbe2d97bdef4c14c764a8') in 0.0230827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.004_MaskMap.png
+  artifactKey: Guid(b1349ce12ed63d546acfdff640e99901) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _M_Lid_01.004_MaskMap.png using Guid(b1349ce12ed63d546acfdff640e99901) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '20ae734b573545cfec2a4d5af4e31675') in 0.0235099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_BaseMap.png
+  artifactKey: Guid(55a65414af54b6640983b3e45112a775) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Lid(Can3)/Can 03lp _F_Can_03_BaseMap.png using Guid(55a65414af54b6640983b3e45112a775) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53f75f4744a75f07d091f15ec7ebdb49') in 0.0272097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.797157 seconds.
+  path: Assets/Art/Cans/Can_02/BeefoGetti/M_BeefoGetti_Food.mat
+  artifactKey: Guid(e75d2c4e48da40942af789150da01981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Art/Cans/Can_02/BeefoGetti/M_BeefoGetti_Food.mat using Guid(e75d2c4e48da40942af789150da01981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '56da0dd4906eab142a4afc9e26793628') in 0.0315913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
