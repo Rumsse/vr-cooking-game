@@ -4,6 +4,11 @@ using UnityEngine;
 public class PhysicHand : MonoBehaviour
 {
     public Transform target;
+    [Header("Calibration")]
+    public Vector3 positionOffset;
+    public Vector3 rotationOffset;
+
+    [Header("Physics Settings")]
     public float followSpeed = 50f;
     public float rotationSpeed = 50f;
 
@@ -26,13 +31,15 @@ public class PhysicHand : MonoBehaviour
 
     private void UpdateLinearVelocity()
     {
-        Vector3 positionDifference = target.position - transform.position;
+        Vector3 targetPos = target.position + target.rotation * positionOffset;
+        Vector3 positionDifference = targetPos - transform.position;
         rb.linearVelocity = positionDifference * followSpeed;
     }
 
     private void UpdateAngularVelocity()
     {
-        Quaternion rotationDifference = target.rotation * Quaternion.Inverse(transform.rotation);
+        Quaternion targetRot = target.rotation * Quaternion.Euler(rotationOffset);
+        Quaternion rotationDifference = targetRot * Quaternion.Inverse(transform.rotation);
         rotationDifference.ToAngleAxis(out float angleInDegree, out Vector3 rotationAxis);
 
         if (float.IsInfinity(rotationAxis.x))
