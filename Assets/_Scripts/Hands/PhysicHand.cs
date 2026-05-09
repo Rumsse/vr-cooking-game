@@ -1,47 +1,47 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class PhysicsHand : MonoBehaviour
+public class PhysicHand : MonoBehaviour
 {
-    [SerializeField] private Transform target;
-    [SerializeField] private float positionSpeed = 20f;
-    [SerializeField] private float rotationSpeed = 100f;
+    public Transform target;
+    public float followSpeed = 50f;
+    public float rotationSpeed = 50f;
 
     private Rigidbody rb;
 
-    private void Awake() => rb = GetComponent<Rigidbody>();
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.maxAngularVelocity = 100f;
+    }
 
     private void FixedUpdate()
     {
         if (target == null)
             return;
 
-        MoveToTarget();
-        RotateToTarget();
+        UpdateLinearVelocity();
+        UpdateAngularVelocity();
     }
 
-    private void MoveToTarget()
+    private void UpdateLinearVelocity()
     {
         Vector3 positionDifference = target.position - transform.position;
-        rb.linearVelocity = positionDifference * positionSpeed;
+        rb.linearVelocity = positionDifference * followSpeed;
     }
 
-    private void RotateToTarget()
+    private void UpdateAngularVelocity()
     {
         Quaternion rotationDifference = target.rotation * Quaternion.Inverse(transform.rotation);
         rotationDifference.ToAngleAxis(out float angleInDegree, out Vector3 rotationAxis);
 
+        if (float.IsInfinity(rotationAxis.x))
+            return;
+
         if (angleInDegree > 180f)
             angleInDegree -= 360f;
 
-        if (Mathf.Abs(angleInDegree) < Mathf.Epsilon)
-            return;
-
-        Vector3 angularVelocity = (angleInDegree * rotationAxis.normalized * rotationSpeed * Mathf.Deg2Rad) / Time.fixedDeltaTime;
-
-        if (float.IsNaN(angularVelocity.x))
-            return;
-
-        rb.angularVelocity = angularVelocity;
+        Vector3 angularDifference = angleInDegree * rotationAxis;
+        rb.angularVelocity = (angularDifference * Mathf.Deg2Rad) * rotationSpeed;
     }
 }
