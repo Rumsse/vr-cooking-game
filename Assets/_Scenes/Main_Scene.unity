@@ -3341,7 +3341,7 @@ MonoBehaviour:
   sliceableLayer:
     serializedVersion: 2
     m_Bits: 128
-  defaultCrossSectionMaterial: {fileID: 0}
+  defaultCrossSectionMaterial: {fileID: 2100000, guid: 4bfbc5642c594e64192ee12181235a42, type: 2}
   cutForce: 2000
   minVelocityToCut: 0.5
 --- !u!1 &874919884
@@ -3890,7 +3890,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5849765079216124530, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.013949705
+      value: -0.04410683
       objectReference: {fileID: 0}
     - target: {fileID: 5849765079944474460, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
       propertyPath: m_Size
