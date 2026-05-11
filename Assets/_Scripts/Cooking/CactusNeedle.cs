@@ -1,37 +1,30 @@
 using UnityEngine;
-using System.Reflection;
+using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
 
 namespace Wastepunk.Cooking
 {
-    [RequireComponent(typeof(Rigidbody))]
+    [RequireComponent(typeof(Rigidbody), typeof(XRGrabInteractable))]
     public class CactusNeedle : MonoBehaviour
     {
         [SerializeField] private Cactus parentCactus;
         [SerializeField] private float pullDistanceThreshold = 0.15f;
 
         private bool isRemoved;
-        private FixedJoint joint;
-        private Component grabInteractable;
-        private PropertyInfo isSelectedProp;
+        private Rigidbody rb;
+        private XRGrabInteractable grabInteractable;
         private Vector3 localSocketPosition;
 
         private void Awake()
         {
-            joint = GetComponent<FixedJoint>();
+            rb = GetComponent<Rigidbody>();
+            grabInteractable = GetComponent<XRGrabInteractable>();
             
+            rb.isKinematic = true;
+
             if (parentCactus != null)
                 localSocketPosition = parentCactus.transform.InverseTransformPoint(transform.position);
-
-            var xriGrabType = System.Type.GetType("UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable, Unity.XR.Interaction.Toolkit") 
-                            ?? System.Type.GetType("UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable, Unity.XR.Interaction.Toolkit");
-                            
-            if (xriGrabType == null)
-                return;
-
-            grabInteractable = GetComponent(xriGrabType);
-            
-            if (grabInteractable != null)
-                isSelectedProp = xriGrabType.GetProperty("isSelected");
         }
 
         private void Update()
@@ -39,11 +32,14 @@ namespace Wastepunk.Cooking
             if (isRemoved)
                 return;
 
-            if (grabInteractable == null || isSelectedProp == null || parentCactus == null)
+            if (!grabInteractable.isSelected)
                 return;
 
-            if (!(bool)isSelectedProp.GetValue(grabInteractable))
+            if (parentCactus == null)
+            {
+                Debug.LogWarning("CactusNeedle is missing parentCactus reference!");
                 return;
+            }
 
             if ((transform.position - parentCactus.transform.TransformPoint(localSocketPosition)).sqrMagnitude > pullDistanceThreshold * pullDistanceThreshold)
                 DetachNeedle();
@@ -52,40 +48,21 @@ namespace Wastepunk.Cooking
         private void DetachNeedle()
         {
             isRemoved = true;
+            rb.isKinematic = false;
             transform.SetParent(null);
-            
-            if (joint != null)
-                Destroy(joint);
 
-            TriggerHapticFeedback();
-            
+            //TriggerHapticFeedback();
+
             if (parentCactus != null)
                 parentCactus.RegisterNeedleRemoved();
         }
 
         private void TriggerHapticFeedback()
         {
-            if (grabInteractable == null)
-                return;
-            
-            try
+            foreach (var interactor in grabInteractable.interactorsSelecting)
             {
-                var interactorsProp = grabInteractable.GetType().GetProperty("interactorsSelecting");
-                if (interactorsProp == null)
-                    return;
-
-                if (interactorsProp.GetValue(grabInteractable) is not System.Collections.IEnumerable interactors)
-                    return;
-
-                foreach (var interactor in interactors)
-                {
-                    var sendHapticMethod = interactor.GetType().GetMethod("SendHapticImpulse", new[] { typeof(float), typeof(float) });
-                    if (sendHapticMethod != null)
-                        sendHapticMethod.Invoke(interactor, new object[] { 1f, 0.2f });
-                }
-            }
-            catch
-            {
+                // if (interactor is XRBaseInteractor baseInteractor)
+                //     baseInteractor.SendHapticImpulse(1f, 0.2f);
             }
         }
     }

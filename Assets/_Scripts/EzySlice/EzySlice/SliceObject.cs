@@ -1,23 +1,18 @@
 using EzySlice;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 [RequireComponent(typeof(Rigidbody))]
 public class SliceObject : MonoBehaviour
 {
-    [Header("Slice Points")]
     [SerializeField] private Transform startSlicePoint;
     [SerializeField] private Transform endSlicePoint;
-
-    [Header("Settings")]
     [SerializeField] private LayerMask sliceableLayer;
-    [SerializeField] private Material crossSectionMaterial;
+    [SerializeField] private Material defaultCrossSectionMaterial;
     [SerializeField] private float cutForce = 2000f;
-    
-    [Header("VR Velocity Settings")]
     [SerializeField] private float minVelocityToCut = 0.5f;
 
     private Rigidbody bladeRigidbody;
-
     private Vector3 previousPosition;
     private Vector3 estimatedVelocity;
 
@@ -41,52 +36,54 @@ public class SliceObject : MonoBehaviour
 
     private void CalculateManualVelocity()
     {
-        Vector3 displacement = transform.position - previousPosition;
-
-        estimatedVelocity = displacement / Time.fixedDeltaTime;
-
+        estimatedVelocity = (transform.position - previousPosition) / Time.fixedDeltaTime;
         previousPosition = transform.position;
     }
 
     public void Slice(GameObject target)
     {
-        Vector3 velocity = estimatedVelocity;
-
-        if (velocity.magnitude < minVelocityToCut)
+        if (estimatedVelocity.magnitude < minVelocityToCut)
             return;
 
         Vector3 bladeDirection = endSlicePoint.position - startSlicePoint.position;
-        Vector3 planeNormal = Vector3.Cross(bladeDirection, velocity).normalized;
+        Vector3 planeNormal = Vector3.Cross(bladeDirection, estimatedVelocity).normalized;
         
         if (planeNormal == Vector3.zero)
-        {
-            Debug.LogWarning("[Slice Debug] Normalna płaszczyzny to zero. Ruch jest równoległy do ostrza.");
             return;
-        }
 
         SlicedHull hull = target.Slice(endSlicePoint.position, planeNormal);
 
         if (hull == null)
-        {
-            Debug.LogError($"[Slice Debug] Slice failed on {target.name}. Upewnij się, że obiekt ma MeshFilter i zaznaczone 'Read/Write Enabled' w ustawieniach modelu!");
             return;
-        }
 
-        GameObject upperHull = hull.CreateUpperHull(target, crossSectionMaterial);
-        SetupSlicedComponent(upperHull);
+        Material materialToUse = defaultCrossSectionMaterial;
+        
+        if (target.TryGetComponent(out SliceableProperties properties))
+            materialToUse = properties.innerMaterial;
 
-        GameObject lowerHull = hull.CreateLowerHull(target, crossSectionMaterial);
-        SetupSlicedComponent(lowerHull);
+        GameObject upperHull = hull.CreateUpperHull(target, materialToUse);
+        SetupSlicedComponent(upperHull, target, materialToUse);
+
+        GameObject lowerHull = hull.CreateLowerHull(target, materialToUse);
+        SetupSlicedComponent(lowerHull, target, materialToUse);
 
         Destroy(target);
     }
 
-    private void SetupSlicedComponent(GameObject slicedObject)
+    private void SetupSlicedComponent(GameObject slicedObject, GameObject originalTarget, Material appliedMaterial)
     {
+        slicedObject.layer = originalTarget.layer;
+
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
         MeshCollider meshCollider = slicedObject.AddComponent<MeshCollider>();
         meshCollider.convex = true;
         
+        XRGrabInteractable grabInteractable = slicedObject.AddComponent<XRGrabInteractable>();
+        grabInteractable.useDynamicAttach = true;
+
+        SliceableProperties newProperties = slicedObject.AddComponent<SliceableProperties>();
+        newProperties.innerMaterial = appliedMaterial;
+
         rb.AddExplosionForce(cutForce, slicedObject.transform.position, 1f);
     }
 }
