@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Ingredients.IngredientData
   ingredientId: cactus
   ingredientName: Cactus
-  defaultState: 1
+  defaultState: 2
