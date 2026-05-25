@@ -15,3 +15,5 @@ MonoBehaviour:
   ingredientId: cactus
   ingredientName: Cactus
   defaultState: 2
+  timeToCook: 5
+  timeToBurn: 8
