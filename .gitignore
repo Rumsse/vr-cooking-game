@@ -20,6 +20,12 @@ Captures/
 # --- Asset Store & Tools ---
 Assets/AssetStoreTools*
 
+# Unity temp files and logs
+/[Ll]ogs/
+/[Tt]emp/
+shadercompiler-*
+*.log
+
 # --- Visual Studio & IDE ---
 .vs/
 .idea/
