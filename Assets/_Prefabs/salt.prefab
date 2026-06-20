@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5404922659836217646}
   - component: {fileID: 5369499131747562381}
   - component: {fileID: 3163997775527239004}
+  - component: {fileID: 5078318179097589546}
   m_Layer: 0
   m_Name: salt patricle
   m_TagString: Untagged
@@ -42,7 +43,7 @@ ParticleSystem:
   m_GameObject: {fileID: 4100355869567169221}
   serializedVersion: 8
   lengthInSec: 1
-  simulationSpeed: 1
+  simulationSpeed: 2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -116,7 +117,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.7
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -169,7 +170,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.6
+      scalar: 0.8
       minScalar: 0.2
       maxCurve:
         serializedVersion: 2
@@ -3679,7 +3680,7 @@ ParticleSystem:
   CollisionModule:
     enabled: 1
     serializedVersion: 4
-    type: 0
+    type: 1
     collisionMode: 0
     colliderForce: 0
     multiplyColliderForceByParticleSize: 0
@@ -3854,7 +3855,7 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -4894,6 +4895,18 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
+--- !u!114 &5078318179097589546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4100355869567169221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a6c1a0f1ae30a4f9c3118bd6a25f88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Tools.ShakerDispenser
 --- !u!1 &4606134126625349780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4905,6 +4918,7 @@ GameObject:
   - component: {fileID: 7945000249291314928}
   - component: {fileID: 172046524340711935}
   - component: {fileID: 9000524240240644583}
+  - component: {fileID: 8129629138806057748}
   m_Layer: 0
   m_Name: salt
   m_TagString: Untagged
@@ -5085,6 +5099,20 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &8129629138806057748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4606134126625349780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f337cd4d0629e9e47ae5f750149baf1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Tools.Shaker
+  saltParticleSystem: {fileID: 5369499131747562381}
+  tiltThreshold: 0.5
 --- !u!1001 &8131751641184945157
 PrefabInstance:
   m_ObjectHideFlags: 0

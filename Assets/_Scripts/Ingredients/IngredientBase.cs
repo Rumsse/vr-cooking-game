@@ -4,7 +4,7 @@ using Wastepunk.Interfaces;
 
 namespace Wastepunk.Ingredients
 {
-    public class IngredientBase : MonoBehaviour, ICookable
+    public class IngredientBase : MonoBehaviour, ICookable, ISeasonable
     {
         [SerializeField] private IngredientData ingredientData;
 
@@ -43,6 +43,19 @@ namespace Wastepunk.Ingredients
         public void Cook() => ChangeState(IngredientState.Cooked);
 
         public void Burn() => ChangeState(IngredientState.Burned);
+
+        public void Season() => ChangeState(IngredientState.Seasoned);
+
+        public bool CanBeSeasoned()
+        {
+            if (CurrentState == IngredientState.Dirty || CurrentState == IngredientState.NotPeeled || CurrentState == IngredientState.Burned)
+                return false;
+
+            if (CurrentState == IngredientState.Seasoned)
+                return false;
+
+            return true;
+        }
 
         public bool CanBeCooked()
         {

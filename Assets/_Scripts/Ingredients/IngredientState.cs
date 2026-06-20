@@ -7,6 +7,7 @@ namespace Wastepunk.Ingredients
         Raw,
         Sliced,
         Cooked,
+        Seasoned,
         Burned
     }
 }
