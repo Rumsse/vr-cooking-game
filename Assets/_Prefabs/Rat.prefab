@@ -342,6 +342,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Ingredients.IngredientVisuals
   stateMaterials:
+  - State: 0
+    Material: {fileID: 2100000, guid: 938649f0ea5cad249842e6cdeb8fb66c, type: 2}
+  - State: 1
+    Material: {fileID: 2100000, guid: 938649f0ea5cad249842e6cdeb8fb66c, type: 2}
   - State: 2
     Material: {fileID: 2100000, guid: 7e5e7091825003447b28c9b0ce235eed, type: 2}
   - State: 4
