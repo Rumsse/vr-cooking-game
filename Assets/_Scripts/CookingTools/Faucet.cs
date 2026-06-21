@@ -4,20 +4,55 @@ namespace Wastepunk.Environment
 {
     public class Faucet : MonoBehaviour
     {
-        [SerializeField] private ParticleSystem waterParticles;
-        private bool isWaterFlowing;
+        #region Variables
 
-        public void ToggleWater()
+        [SerializeField] private ParticleSystem waterParticles;
+        [SerializeField] private float maxEmissionRate = 50f;
+
+        private ParticleSystem.EmissionModule waterEmission;
+
+        #endregion
+
+        #region Unity Methods
+
+        private void Awake()
         {
-            isWaterFlowing = !isWaterFlowing;
-            if (isWaterFlowing)
+            if (waterParticles == null)
+                return;
+
+            waterEmission = waterParticles.emission;
+            waterEmission.enabled = true;
+            waterEmission.rateOverTime = 0f;
+            waterParticles.Stop();
+        }
+
+        #endregion
+
+        #region Logic
+
+        public void SetWaterFlow(float percent)
+        {
+            if (waterParticles == null)
+                return;
+
+            percent = Mathf.Clamp01(percent);
+
+            if (percent <= 0.05f)
             {
-                waterParticles.Play();
+                if (waterParticles.isPlaying)
+                    waterParticles.Stop();
+
+                waterEmission.rateOverTime = 0f;
             }
             else
             {
-                waterParticles.Stop();
+                if (!waterParticles.isPlaying)
+                    waterParticles.Play();
+
+                waterEmission.rateOverTime = percent * maxEmissionRate;
             }
         }
+
+        #endregion
     }
 }

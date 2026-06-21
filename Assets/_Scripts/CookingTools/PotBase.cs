@@ -6,29 +6,22 @@ namespace Wastepunk.Ingredients
     public class PotBase : MonoBehaviour, IFillable
     {
         [SerializeField] private float maxVolume = 100f;
-        [SerializeField] private GameObject waterVisual;
-        [SerializeField] private float waterRiseSpeed = 0.5f;
+        [SerializeField] private Transform waterVisual;
+        [SerializeField] private float minLocalY = -0.5f;
+        [SerializeField] private float maxLocalY = 0.5f;
 
         public float MaxVolume => maxVolume;
         public float CurrentVolume { get; private set; }
 
-        private Vector3 initialWaterScale;
-
-        private void Start()
-        {
-            if (waterVisual != null)
-            {
-                initialWaterScale = waterVisual.transform.localScale;
-                UpdateWaterVisual();
-            }
-        }
+        private void Start() => UpdateWaterVisual();
 
         public void Fill(float amount)
         {
-            if (IsFull()) return;
+            if (IsFull())
+                return;
 
             CurrentVolume += amount;
-            CurrentVolume = Mathf.Clamp(CurrentVolume, 0f, MaxVolume); 
+            CurrentVolume = Mathf.Clamp(CurrentVolume, 0f, MaxVolume);
             UpdateWaterVisual();
         }
 
@@ -36,21 +29,22 @@ namespace Wastepunk.Ingredients
 
         private void UpdateWaterVisual()
         {
-            if (waterVisual == null) return;
+            if (waterVisual == null)
+                return;
 
             if (CurrentVolume <= 0f)
             {
-                waterVisual.SetActive(false);
+                waterVisual.gameObject.SetActive(false);
+                return;
             }
-            else
-            {
-                waterVisual.SetActive(true);
 
-                float fillRatio = CurrentVolume / MaxVolume;
-                Vector3 newScale = initialWaterScale;
-                newScale.y = initialWaterScale.y * fillRatio;
-                waterVisual.transform.localScale = newScale;
-            }
+            if (!waterVisual.gameObject.activeSelf)
+                waterVisual.gameObject.SetActive(true);
+
+            float fillRatio = CurrentVolume / MaxVolume;
+            Vector3 newPos = waterVisual.localPosition;
+            newPos.y = Mathf.Lerp(minLocalY, maxLocalY, fillRatio);
+            waterVisual.localPosition = newPos;
         }
     }
 }

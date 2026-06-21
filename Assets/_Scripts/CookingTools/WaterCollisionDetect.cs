@@ -1,16 +1,20 @@
 using UnityEngine;
+using Wastepunk.Interfaces;
 
-public class WaterCollisionDetect : MonoBehaviour
+namespace Wastepunk.Environment
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class WaterCollisionDetect : MonoBehaviour
     {
-        
-    }
+        [SerializeField] private float fillAmountPerParticle = 0.5f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        private void OnParticleCollision(GameObject other)
+        {
+            IFillable fillable = other.GetComponentInParent<IFillable>();
+
+            if (fillable == null)
+                return;
+
+            fillable.Fill(fillAmountPerParticle);
+        }
     }
 }
