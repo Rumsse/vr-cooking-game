@@ -9,7 +9,7 @@ public class SliceObject : MonoBehaviour
     [SerializeField] private Transform endSlicePoint;
     [SerializeField] private LayerMask sliceableLayer;
     [SerializeField] private Material defaultCrossSectionMaterial;
-    [SerializeField] private float cutForce = 2000f;
+    [SerializeField] private float cutForce = 200f;
     [SerializeField] private float minVelocityToCut = 0.5f;
 
     private Rigidbody bladeRigidbody;
@@ -27,7 +27,7 @@ public class SliceObject : MonoBehaviour
         CalculateManualVelocity();
 
         bool hasHit = Physics.Linecast(startSlicePoint.position, endSlicePoint.position, out RaycastHit hit, sliceableLayer);
-        
+
         if (!hasHit)
             return;
 
@@ -47,7 +47,7 @@ public class SliceObject : MonoBehaviour
 
         Vector3 bladeDirection = endSlicePoint.position - startSlicePoint.position;
         Vector3 planeNormal = Vector3.Cross(bladeDirection, estimatedVelocity).normalized;
-        
+
         if (planeNormal == Vector3.zero)
             return;
 
@@ -57,7 +57,7 @@ public class SliceObject : MonoBehaviour
             return;
 
         Material materialToUse = defaultCrossSectionMaterial;
-        
+
         if (target.TryGetComponent(out SliceableProperties properties))
             materialToUse = properties.innerMaterial;
 
@@ -72,12 +72,16 @@ public class SliceObject : MonoBehaviour
 
     private void SetupSlicedComponent(GameObject slicedObject, GameObject originalTarget, Material appliedMaterial)
     {
+        slicedObject.transform.position = originalTarget.transform.position;
+        slicedObject.transform.rotation = originalTarget.transform.rotation;
+        slicedObject.transform.localScale = originalTarget.transform.lossyScale;
+
         slicedObject.layer = originalTarget.layer;
 
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
         MeshCollider meshCollider = slicedObject.AddComponent<MeshCollider>();
         meshCollider.convex = true;
-        
+
         XRGrabInteractable grabInteractable = slicedObject.AddComponent<XRGrabInteractable>();
         grabInteractable.useDynamicAttach = true;
 
