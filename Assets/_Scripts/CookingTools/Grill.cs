@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
+using Wastepunk.Ingredients;
 using Wastepunk.Interfaces;
 
 namespace Wastepunk.Stations
@@ -46,19 +47,23 @@ namespace Wastepunk.Stations
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.TryGetComponent(out ICookable cookable))
+            ICookable cookable = other.GetComponentInParent<ICookable>();
+            if (cookable != null)
                 TryAddItem(cookable);
 
-            if (other.TryGetComponent(out IHeatable heatable))
+            IHeatable heatable = other.GetComponentInParent<IHeatable>();
+            if (heatable != null)
                 TryAddContainer(heatable);
         }
 
         private void OnTriggerExit(Collider other)
         {
-            if (other.TryGetComponent(out ICookable cookable))
+            ICookable cookable = other.GetComponentInParent<ICookable>();
+            if (cookable != null)
                 TryRemoveItem(cookable);
 
-            if (other.TryGetComponent(out IHeatable heatable))
+            IHeatable heatable = other.GetComponentInParent<IHeatable>();
+            if (heatable != null)
                 TryRemoveContainer(heatable);
         }
 
@@ -68,7 +73,7 @@ namespace Wastepunk.Stations
 
         private void TryAddItem(ICookable cookable)
         {
-            if (!cookable.CanBeCooked())
+            if (!cookable.CanBeCooked(CookingType.Frying))
                 return;
 
             if (!itemsOnGrill.Contains(cookable))
@@ -115,7 +120,7 @@ namespace Wastepunk.Stations
             if (cookable.CookingProgress >= cookable.TimeToBurn)
                 cookable.Burn();
             else if (cookable.CookingProgress >= cookable.TimeToCook)
-                cookable.Cook();
+                cookable.Cook(CookingType.Frying);
         }
 
         public void AddFuel(float amount) => currentFuel = Mathf.Clamp(currentFuel + amount, 0f, maxFuel);

@@ -6,8 +6,15 @@ namespace Wastepunk.Ingredients
         NotPeeled,
         Raw,
         Sliced,
-        Cooked,
+        Boiled,
+        Fried,
         Seasoned,
         Burned
+    }
+
+    public enum CookingType
+    {
+        Boiling,
+        Frying
     }
 }

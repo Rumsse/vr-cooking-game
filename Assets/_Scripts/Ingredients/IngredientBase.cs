@@ -7,8 +7,9 @@ namespace Wastepunk.Ingredients
     public class IngredientBase : MonoBehaviour, ICookable, ISeasonable
     {
         [SerializeField] private IngredientData ingredientData;
+        [SerializeField] private IngredientState currentState;
 
-        public IngredientState CurrentState { get; private set; }
+        public IngredientState CurrentState => currentState;
         public IngredientData Data => ingredientData;
 
         public float CookingProgress { get; set; }
@@ -30,17 +31,23 @@ namespace Wastepunk.Ingredients
 
         public void ChangeState(IngredientState newState)
         {
-            if (CurrentState == newState)
+            if (currentState == newState)
                 return;
 
-            if (CurrentState == IngredientState.Burned)
+            if (currentState == IngredientState.Burned)
                 return;
 
-            CurrentState = newState;
-            OnStateChanged?.Invoke(CurrentState);
+            currentState = newState;
+            OnStateChanged?.Invoke(currentState);
         }
 
-        public void Cook() => ChangeState(IngredientState.Cooked);
+        public void Cook(CookingType cookingType)
+        {
+            if (cookingType == CookingType.Boiling)
+                ChangeState(IngredientState.Boiled);
+            else if (cookingType == CookingType.Frying)
+                ChangeState(IngredientState.Fried);
+        }
 
         public void Burn() => ChangeState(IngredientState.Burned);
 
@@ -48,23 +55,35 @@ namespace Wastepunk.Ingredients
 
         public bool CanBeSeasoned()
         {
-            if (CurrentState == IngredientState.Dirty || CurrentState == IngredientState.NotPeeled || CurrentState == IngredientState.Burned)
+            if (currentState == IngredientState.Dirty || currentState == IngredientState.NotPeeled || currentState == IngredientState.Burned)
                 return false;
 
-            if (CurrentState == IngredientState.Seasoned)
+            if (currentState == IngredientState.Seasoned)
                 return false;
 
             return true;
         }
 
-        public bool CanBeCooked()
+        public bool CanBeCooked(CookingType cookingType)
         {
-            if (CurrentState == IngredientState.Burned)
+            if (currentState == IngredientState.Burned)
                 return false;
 
-            if (CurrentState == IngredientState.Dirty || CurrentState == IngredientState.NotPeeled)
+            if (currentState == IngredientState.Dirty || currentState == IngredientState.NotPeeled)
             {
                 Debug.LogWarning("Ingredient is not ready to be cooked on " + gameObject.name);
+                return false;
+            }
+
+            if (cookingType == CookingType.Boiling && !ingredientData.CanBeBoiled)
+            {
+                Debug.LogWarning("This ingredient cannot be boiled: " + gameObject.name);
+                return false;
+            }
+
+            if (cookingType == CookingType.Frying && !ingredientData.CanBeFried)
+            {
+                Debug.LogWarning("This ingredient cannot be fried: " + gameObject.name);
                 return false;
             }
 

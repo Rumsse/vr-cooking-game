@@ -15,5 +15,5 @@ MonoBehaviour:
   ingredientId: crab
   ingredientName: Crab
   defaultState: 2
-  timeToCook: 10
-  timeToBurn: 15
+  timeToCook: 3
+  timeToBurn: 5

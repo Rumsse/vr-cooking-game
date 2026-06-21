@@ -10,11 +10,15 @@ namespace Wastepunk.Ingredients
         [SerializeField] private IngredientState defaultState = IngredientState.Raw;
         [SerializeField] private float timeToCook = 5f;
         [SerializeField] private float timeToBurn = 15f;
+        [SerializeField] private bool canBeBoiled = true;
+        [SerializeField] private bool canBeFried = true;
 
         public string IngredientId => ingredientId;
         public string IngredientName => ingredientName;
         public IngredientState DefaultState => defaultState;
         public float TimeToCook => timeToCook;
         public float TimeToBurn => timeToBurn;
+        public bool CanBeBoiled => canBeBoiled;
+        public bool CanBeFried => canBeFried;
     }
 }

@@ -85,6 +85,9 @@ public class SliceObject : MonoBehaviour
         XRGrabInteractable grabInteractable = slicedObject.AddComponent<XRGrabInteractable>();
         grabInteractable.useDynamicAttach = true;
 
+        if (originalTarget.TryGetComponent(out XRGrabInteractable originalGrab))
+            grabInteractable.interactionLayers = originalGrab.interactionLayers;
+
         SliceableProperties newProperties = slicedObject.AddComponent<SliceableProperties>();
         newProperties.innerMaterial = appliedMaterial;
 

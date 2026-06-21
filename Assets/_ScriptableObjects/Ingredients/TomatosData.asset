@@ -17,3 +17,5 @@ MonoBehaviour:
   defaultState: 2
   timeToCook: 10
   timeToBurn: 15
+  canBeBoiled: 1
+  canBeFried: 0

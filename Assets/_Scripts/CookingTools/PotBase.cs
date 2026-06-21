@@ -28,10 +28,12 @@ namespace Wastepunk.Ingredients
 
         private void OnTriggerEnter(Collider other)
         {
-            if (!other.TryGetComponent(out ICookable cookable))
+            ICookable cookable = other.GetComponentInParent<ICookable>();
+
+            if (cookable == null)
                 return;
 
-            if (!cookable.CanBeCooked())
+            if (!cookable.CanBeCooked(CookingType.Boiling))
                 return;
 
             if (!itemsInPot.Contains(cookable))
@@ -40,7 +42,9 @@ namespace Wastepunk.Ingredients
 
         private void OnTriggerExit(Collider other)
         {
-            if (!other.TryGetComponent(out ICookable cookable))
+            ICookable cookable = other.GetComponentInParent<ICookable>();
+
+            if (cookable == null)
                 return;
 
             if (itemsInPot.Contains(cookable))
@@ -79,7 +83,7 @@ namespace Wastepunk.Ingredients
             if (cookable.CookingProgress >= cookable.TimeToBurn)
                 cookable.Burn();
             else if (cookable.CookingProgress >= cookable.TimeToCook)
-                cookable.Cook();
+                cookable.Cook(CookingType.Boiling);
         }
 
         private void UpdateWaterVisual()

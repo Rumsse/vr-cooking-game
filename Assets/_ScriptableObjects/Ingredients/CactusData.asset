@@ -16,4 +16,6 @@ MonoBehaviour:
   ingredientName: Cactus
   defaultState: 2
   timeToCook: 5
-  timeToBurn: 8
+  timeToBurn: 8.5
+  canBeBoiled: 0
+  canBeFried: 1

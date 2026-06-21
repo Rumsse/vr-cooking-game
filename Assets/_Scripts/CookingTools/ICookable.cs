@@ -6,8 +6,8 @@ namespace Wastepunk.Interfaces
         float TimeToCook { get; }
         float TimeToBurn { get; }
 
-        void Cook();
+        void Cook(Wastepunk.Ingredients.CookingType cookingType);
         void Burn();
-        bool CanBeCooked();
+        bool CanBeCooked(Wastepunk.Ingredients.CookingType cookingType);
     }
 }
