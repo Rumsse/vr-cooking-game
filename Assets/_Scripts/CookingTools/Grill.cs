@@ -20,6 +20,7 @@ namespace Wastepunk.Stations
 
         private float currentFuel;
         private readonly List<ICookable> itemsOnGrill = new List<ICookable>();
+        private readonly List<IHeatable> containersOnGrill = new List<IHeatable>();
 
         public float FireIntensity => Mathf.Clamp01(currentFuel / maxFuel);
 
@@ -33,21 +34,40 @@ namespace Wastepunk.Stations
         {
             UpdateFire();
 
-            if (itemsOnGrill.Count == 0)
-                return;
-
             if (FireIntensity <= 0f)
                 return;
 
             for (int i = itemsOnGrill.Count - 1; i >= 0; i--)
                 ProcessItem(itemsOnGrill[i]);
+
+            for (int i = containersOnGrill.Count - 1; i >= 0; i--)
+                containersOnGrill[i].Heat(FireIntensity);
         }
 
         private void OnTriggerEnter(Collider other)
         {
-            if (!other.TryGetComponent(out ICookable cookable))
-                return;
+            if (other.TryGetComponent(out ICookable cookable))
+                TryAddItem(cookable);
 
+            if (other.TryGetComponent(out IHeatable heatable))
+                TryAddContainer(heatable);
+        }
+
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.TryGetComponent(out ICookable cookable))
+                TryRemoveItem(cookable);
+
+            if (other.TryGetComponent(out IHeatable heatable))
+                TryRemoveContainer(heatable);
+        }
+
+        #endregion
+
+        #region Logic
+
+        private void TryAddItem(ICookable cookable)
+        {
             if (!cookable.CanBeCooked())
                 return;
 
@@ -55,18 +75,23 @@ namespace Wastepunk.Stations
                 itemsOnGrill.Add(cookable);
         }
 
-        private void OnTriggerExit(Collider other)
+        private void TryAddContainer(IHeatable heatable)
         {
-            if (!other.TryGetComponent(out ICookable cookable))
-                return;
+            if (!containersOnGrill.Contains(heatable))
+                containersOnGrill.Add(heatable);
+        }
 
+        private void TryRemoveItem(ICookable cookable)
+        {
             if (itemsOnGrill.Contains(cookable))
                 itemsOnGrill.Remove(cookable);
         }
 
-        #endregion
-
-        #region Logic
+        private void TryRemoveContainer(IHeatable heatable)
+        {
+            if (containersOnGrill.Contains(heatable))
+                containersOnGrill.Remove(heatable);
+        }
 
         private void UpdateFire()
         {
@@ -93,10 +118,7 @@ namespace Wastepunk.Stations
                 cookable.Cook();
         }
 
-        public void AddFuel(float amount)
-        {
-            currentFuel = Mathf.Clamp(currentFuel + amount, 0f, maxFuel);
-        }
+        public void AddFuel(float amount) => currentFuel = Mathf.Clamp(currentFuel + amount, 0f, maxFuel);
 
         #endregion
     }
