@@ -18,6 +18,8 @@ namespace Wastepunk.Ingredients
         private IngredientBase ingredient;
         private Renderer meshRenderer;
 
+        public StateMaterial[] StateMaterials => stateMaterials;
+
         private void Awake()
         {
             ingredient = GetComponent<IngredientBase>();
@@ -30,11 +32,13 @@ namespace Wastepunk.Ingredients
 
         private void Start() => UpdateMaterial(ingredient.CurrentState);
 
+        public void Initialize(StateMaterial[] materials) => stateMaterials = materials;
+
         private void UpdateMaterial(IngredientState state)
         {
             foreach (var stateMat in stateMaterials)
             {
-                if (stateMat.State != state)
+                if (!state.HasFlag(stateMat.State))
                     continue;
 
                 meshRenderer.material = stateMat.Material;

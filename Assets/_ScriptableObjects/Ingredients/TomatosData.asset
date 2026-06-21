@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Ingredients.IngredientData
   ingredientId: tomatoes
   ingredientName: Tomatoes
-  defaultState: 2
+  defaultState: 4
   timeToCook: 10
   timeToBurn: 15
   canBeBoiled: 1

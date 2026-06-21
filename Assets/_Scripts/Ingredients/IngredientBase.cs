@@ -26,7 +26,36 @@ namespace Wastepunk.Ingredients
                 return;
             }
 
-            ChangeState(ingredientData.DefaultState);
+            if (currentState == IngredientState.None)
+                ChangeState(ingredientData.DefaultState);
+        }
+
+        public void Initialize(IngredientData data, IngredientState state, float progress)
+        {
+            ingredientData = data;
+            currentState = state;
+            CookingProgress = progress;
+        }
+
+        public void AddState(IngredientState stateFlag)
+        {
+            if (currentState.HasFlag(IngredientState.Burned))
+                return;
+
+            if (currentState.HasFlag(stateFlag))
+                return;
+
+            currentState |= stateFlag;
+            OnStateChanged?.Invoke(currentState);
+        }
+
+        public void RemoveState(IngredientState stateFlag)
+        {
+            if (!currentState.HasFlag(stateFlag))
+                return;
+
+            currentState &= ~stateFlag;
+            OnStateChanged?.Invoke(currentState);
         }
 
         public void ChangeState(IngredientState newState)
@@ -34,7 +63,7 @@ namespace Wastepunk.Ingredients
             if (currentState == newState)
                 return;
 
-            if (currentState == IngredientState.Burned)
+            if (currentState.HasFlag(IngredientState.Burned))
                 return;
 
             currentState = newState;
@@ -43,22 +72,31 @@ namespace Wastepunk.Ingredients
 
         public void Cook(CookingType cookingType)
         {
+            RemoveState(IngredientState.Raw);
+
             if (cookingType == CookingType.Boiling)
-                ChangeState(IngredientState.Boiled);
+                AddState(IngredientState.Boiled);
             else if (cookingType == CookingType.Frying)
-                ChangeState(IngredientState.Fried);
+                AddState(IngredientState.Fried);
         }
 
-        public void Burn() => ChangeState(IngredientState.Burned);
+        public void Burn()
+        {
+            RemoveState(IngredientState.Raw);
+            RemoveState(IngredientState.Boiled);
+            RemoveState(IngredientState.Fried);
 
-        public void Season() => ChangeState(IngredientState.Seasoned);
+            AddState(IngredientState.Burned);
+        }
+
+        public void Season() => AddState(IngredientState.Seasoned);
 
         public bool CanBeSeasoned()
         {
-            if (currentState == IngredientState.Dirty || currentState == IngredientState.NotPeeled || currentState == IngredientState.Burned)
+            if (currentState.HasFlag(IngredientState.Dirty) || currentState.HasFlag(IngredientState.NotPeeled) || currentState.HasFlag(IngredientState.Burned))
                 return false;
 
-            if (currentState == IngredientState.Seasoned)
+            if (currentState.HasFlag(IngredientState.Seasoned))
                 return false;
 
             return true;
@@ -66,10 +104,10 @@ namespace Wastepunk.Ingredients
 
         public bool CanBeCooked(CookingType cookingType)
         {
-            if (currentState == IngredientState.Burned)
+            if (currentState.HasFlag(IngredientState.Burned))
                 return false;
 
-            if (currentState == IngredientState.Dirty || currentState == IngredientState.NotPeeled)
+            if (currentState.HasFlag(IngredientState.Dirty) || currentState.HasFlag(IngredientState.NotPeeled))
             {
                 Debug.LogWarning("Ingredient is not ready to be cooked on " + gameObject.name);
                 return false;

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Ingredients.IngredientData
   ingredientId: cactus
   ingredientName: Cactus
-  defaultState: 2
+  defaultState: 4
   timeToCook: 5
   timeToBurn: 8.5
   canBeBoiled: 0

@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Ingredients.IngredientData
   ingredientId: crab
   ingredientName: Crab
-  defaultState: 2
+  defaultState: 4
   timeToCook: 3
   timeToBurn: 5
+  canBeBoiled: 1
+  canBeFried: 1
