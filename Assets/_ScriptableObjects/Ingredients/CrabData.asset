@@ -16,6 +16,6 @@ MonoBehaviour:
   ingredientName: Crab
   defaultState: 4
   timeToCook: 3
-  timeToBurn: 5
+  timeToBurn: 30
   canBeBoiled: 1
   canBeFried: 1

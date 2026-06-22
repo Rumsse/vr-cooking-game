@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b8c9eadee06a4c8219e7c608ca1a9, type: 3}
+  m_Name: TomatoCrab
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Recipes.RecipeData
+  recipeId: tomatoCrab
+  requiredIngredients:
+  - IngredientData: {fileID: 11400000, guid: 76087c7d9dbb4ef47b4657be46b2169b, type: 2}
+    RequiredState: 96
+    Amount: 2
+  - IngredientData: {fileID: 11400000, guid: cf3d0adc1e39e264f8cd8849dcb88858, type: 2}
+    RequiredState: 80
+    Amount: 2
+  resultPrefab: {fileID: 6860373670386104026, guid: 2a67a073693241847aeadf0708aad9f2, type: 3}
+  timeToCookRecipe: 3

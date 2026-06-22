@@ -16,6 +16,6 @@ MonoBehaviour:
   ingredientName: Tomatoes
   defaultState: 4
   timeToCook: 10
-  timeToBurn: 15
+  timeToBurn: 30
   canBeBoiled: 1
   canBeFried: 0

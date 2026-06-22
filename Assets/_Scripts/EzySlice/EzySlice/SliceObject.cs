@@ -95,6 +95,7 @@ public class SliceObject : MonoBehaviour
         slicedObject.layer = originalTarget.layer;
 
         Rigidbody rb = slicedObject.AddComponent<Rigidbody>();
+        rb.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         MeshCollider meshCollider = slicedObject.AddComponent<MeshCollider>();
         meshCollider.convex = true;
 
