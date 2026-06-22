@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
 using Wastepunk.Ingredients;
+using Wastepunk.Recipes;
 
 namespace Wastepunk.Tools
 {
@@ -12,8 +13,7 @@ namespace Wastepunk.Tools
         [SerializeField] private Transform startPoint;
         [SerializeField] private float itemSpacing = 0.1f;
         [SerializeField] private int maxItems = 4;
-        [SerializeField] private string firstItemId = "rat";
-        [SerializeField] private string secondItemId = "peach";
+        [SerializeField] private RecipeData skewerRecipe;
 
         private readonly List<IngredientBase> impaledItems = new List<IngredientBase>();
 
@@ -64,14 +64,11 @@ namespace Wastepunk.Tools
             {
                 Vector3 localCenter = meshFilter.sharedMesh.bounds.center;
                 Vector3 scaledCenter = Vector3.Scale(localCenter, ingredientTransform.localScale);
-
                 Vector3 targetPos = new Vector3(0, 0, impaledItems.Count * itemSpacing);
                 ingredientTransform.localPosition = targetPos - scaledCenter;
             }
             else
-            {
                 ingredientTransform.localPosition = new Vector3(0, 0, impaledItems.Count * itemSpacing);
-            }
 
             impaledItems.Add(ingredient);
             CheckRecipe();
@@ -79,33 +76,52 @@ namespace Wastepunk.Tools
 
         private void CheckRecipe()
         {
+            if (skewerRecipe == null)
+                return;
+
             if (impaledItems.Count != maxItems)
                 return;
 
-            bool isCorrect = true;
+            if (!ValidateSkewerIngredients())
+                return;
+
+            CompleteSkewer();
+        }
+
+        private bool ValidateSkewerIngredients()
+        {
+            if (skewerRecipe.RequiredIngredients.Count < 2)
+                return false;
+
+            RecipeRequirement req1 = skewerRecipe.RequiredIngredients[0];
+            RecipeRequirement req2 = skewerRecipe.RequiredIngredients[1];
 
             for (int i = 0; i < impaledItems.Count; i++)
             {
                 IngredientBase item = impaledItems[i];
-                bool isFirstItemType = item.Data.IngredientId == firstItemId;
-                bool isSecondItemType = item.Data.IngredientId == secondItemId;
+                RecipeRequirement targetReq = i % 2 == 0 ? req1 : req2;
 
-                if (i % 2 == 0)
-                {
-                    if (!isFirstItemType || !item.CurrentState.HasFlag(IngredientState.Fried))
-                        isCorrect = false;
-                }
-                else
-                {
-                    if (!isSecondItemType || !item.CurrentState.HasFlag(IngredientState.Raw))
-                        isCorrect = false;
-                }
+                if (item.Data != targetReq.IngredientData)
+                    return false;
+
+                if (!item.CurrentState.HasFlag(targetReq.RequiredState))
+                    return false;
             }
 
-            if (isCorrect)
-                Debug.Log("Shashlik recipe completed successfully!");
-            else
-                Debug.LogWarning("Invalid ingredients or states on the skewer.");
+            return true;
+        }
+
+        private void CompleteSkewer()
+        {
+            Debug.Log("Skewer recipe completed: " + skewerRecipe.RecipeName);
+
+            foreach (IngredientBase item in impaledItems)
+                Destroy(item.gameObject);
+
+            impaledItems.Clear();
+
+            if (skewerRecipe.ResultPrefab != null)
+                Instantiate(skewerRecipe.ResultPrefab, startPoint.position, Quaternion.identity);
         }
 
         #endregion

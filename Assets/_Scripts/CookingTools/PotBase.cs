@@ -125,7 +125,7 @@ namespace Wastepunk.Ingredients
 
             Debug.Log("Cooking recipe: " + currentRecipe.RecipeId + " Progress: " + recipeProgress);
 
-            if (recipeProgress < currentRecipe.TimeToCookRecipe)
+            if (recipeProgress < currentRecipe.ProcessingTime)
                 return;
 
             CompleteRecipe();
