@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Wastepunk.Creatures;
+using System.Collections.Generic;
 
 namespace Wastepunk.UI
 {
@@ -11,8 +12,8 @@ namespace Wastepunk.UI
 
         [SerializeField] private WormController monsterController;
         [SerializeField] private Slider hungerSlider;
-        [SerializeField] private Image recipeImage;
         [SerializeField] private TextMeshProUGUI recipeNameText;
+        [SerializeField] private Image[] recipeIconSlots;
 
         #endregion
 
@@ -45,13 +46,46 @@ namespace Wastepunk.UI
                 hungerSlider.value = monsterController.HungerRatio;
 
             if (monsterController.DesiredRecipe == null)
+            {
+                ClearIconSlots();
+                if (recipeNameText != null) recipeNameText.text = "";
                 return;
-
-            if (recipeImage != null)
-                recipeImage.sprite = monsterController.DesiredRecipe.RecipeIcon;
+            }
 
             if (recipeNameText != null)
                 recipeNameText.text = monsterController.DesiredRecipe.RecipeName;
+
+            UpdateIconSlots();
+        }
+
+        private void UpdateIconSlots()
+        {
+            if (recipeIconSlots == null || recipeIconSlots.Length == 0) return;
+
+            List<Sprite> icons = monsterController.DesiredRecipe.Steps;
+
+            for (int i = 0; i < recipeIconSlots.Length; i++)
+            {
+                if (icons != null && i < icons.Count)
+                {
+                    recipeIconSlots[i].sprite = icons[i];
+                    recipeIconSlots[i].gameObject.SetActive(true);
+                }
+                else
+                {
+                    recipeIconSlots[i].gameObject.SetActive(false);
+                }
+            }
+        }
+
+        private void ClearIconSlots()
+        {
+            if (recipeIconSlots == null) return;
+
+            foreach (var slot in recipeIconSlots)
+            {
+                slot.gameObject.SetActive(false);
+            }
         }
 
         #endregion

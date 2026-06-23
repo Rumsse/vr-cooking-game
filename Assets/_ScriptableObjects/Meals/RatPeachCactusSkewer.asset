@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RatPeachCactusSkewer
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Recipes.RecipeData
   recipeId: ratSkewer
-  recipeName: SkewerWithRatCactusAndPeach
+  recipeName: Ratty-Peachy-Cactus Skewer
   recipeType: 1
   recipeIcon: {fileID: 21300000, guid: 7a7530b4c425cc642aec2a06663b2c2c, type: 3}
   requiredIngredients:
@@ -25,3 +25,18 @@ MonoBehaviour:
     Amount: 2
   resultPrefab: {fileID: 3847705474625883232, guid: 08b6d208f2e32254fa2fbcc7f5a5d0f1, type: 3}
   processingTime: 1
+  steps:
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: 651ec2a2d12f23c4e8d198216a49d97d, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: a7ee45a9653976546be0e034c6df4ff3, type: 3}
+  - {fileID: 21300000, guid: 651ec2a2d12f23c4e8d198216a49d97d, type: 3}
+  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: 5a9c424ce867f624890e33a003fc78cf, type: 3}
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: c418ffa43e3d43144a58edd233a4da0b, type: 3}
+  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: 95bf44c19e5c9e842b12c2726eea6301, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: 7a7530b4c425cc642aec2a06663b2c2c, type: 3}

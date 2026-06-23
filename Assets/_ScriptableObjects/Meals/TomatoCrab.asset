@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TomatoCrab
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Recipes.RecipeData
   recipeId: tomatoCrab
-  recipeName: CrabInTomatoSauce
+  recipeName: Crab in Tomato Sauce
   recipeType: 0
   recipeIcon: {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
   requiredIngredients:
@@ -25,3 +25,14 @@ MonoBehaviour:
     Amount: 4
   resultPrefab: {fileID: 6860373670386104026, guid: 2a67a073693241847aeadf0708aad9f2, type: 3}
   processingTime: 8
+  steps:
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
+  - {fileID: 21300000, guid: a7ee45a9653976546be0e034c6df4ff3, type: 3}
+  - {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: 9546b46c99cef41498a34f45342ba138, type: 3}
+  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: 9607d6e94b0886f41ab594088958a9fd, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: 9546b46c99cef41498a34f45342ba138, type: 3}
