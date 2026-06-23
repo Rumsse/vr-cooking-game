@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
+  - Floor
+  - Pot
   layers:
   - Default
   - TransparentFX
@@ -15,10 +17,10 @@ TagManager:
   - PhysicHands
   - Sliceable
   - HeatZone
-  - 
-  - 
-  - 
-  - 
+  - Monster
+  - Ingredients
+  - Pot
+  - Floor
   - 
   - 
   - 
