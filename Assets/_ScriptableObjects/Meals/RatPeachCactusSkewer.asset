@@ -18,25 +18,29 @@ MonoBehaviour:
   recipeIcon: {fileID: 21300000, guid: 7a7530b4c425cc642aec2a06663b2c2c, type: 3}
   requiredIngredients:
   - IngredientData: {fileID: 11400000, guid: 640c412679d6d394ea138683af270427, type: 2}
-    RequiredState: 72
+    RequiredState: 40
     Amount: 2
-  - IngredientData: {fileID: 11400000, guid: 76087c7d9dbb4ef47b4657be46b2169b, type: 2}
+  - IngredientData: {fileID: 11400000, guid: 46af290b8a011b148acec8aef22e53de, type: 2}
     RequiredState: 8
     Amount: 2
-  resultPrefab: {fileID: 3847705474625883232, guid: 08b6d208f2e32254fa2fbcc7f5a5d0f1, type: 3}
+  - IngredientData: {fileID: 11400000, guid: af3d817532e576e44a807b951a6ce8ea, type: 2}
+    RequiredState: 8
+    Amount: 2
+  resultPrefab: {fileID: 5184023076744148149, guid: 7104545a95bbe8c46a7dcac08d9090a8, type: 3}
   processingTime: 1
   steps:
+  - {fileID: 21300000, guid: ada4abce56738d7428b53f1463272200, type: 3}
   - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
   - {fileID: 21300000, guid: 651ec2a2d12f23c4e8d198216a49d97d, type: 3}
   - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
   - {fileID: 21300000, guid: a7ee45a9653976546be0e034c6df4ff3, type: 3}
   - {fileID: 21300000, guid: 651ec2a2d12f23c4e8d198216a49d97d, type: 3}
-  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
   - {fileID: 21300000, guid: 5a9c424ce867f624890e33a003fc78cf, type: 3}
+  - {fileID: 21300000, guid: ada4abce56738d7428b53f1463272200, type: 3}
   - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
   - {fileID: 21300000, guid: c418ffa43e3d43144a58edd233a4da0b, type: 3}
   - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: ada4abce56738d7428b53f1463272200, type: 3}
   - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
   - {fileID: 21300000, guid: 95bf44c19e5c9e842b12c2726eea6301, type: 3}
-  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
-  - {fileID: 21300000, guid: 7a7530b4c425cc642aec2a06663b2c2c, type: 3}
+  - {fileID: 21300000, guid: ec3a4c3231651b14493e78a70c474a71, type: 3}
