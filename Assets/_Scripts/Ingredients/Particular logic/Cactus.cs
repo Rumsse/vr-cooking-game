@@ -8,14 +8,18 @@ namespace Wastepunk.Cooking
     public class Cactus : MonoBehaviour
     {
         [SerializeField] private string sliceableLayerName = "Sliceable";
-        [SerializeField] private int totalNeedles = 5;
 
+        private int totalNeedles;
         private int removedNeedles;
         private IngredientBase ingredientBase;
 
         public event Action OnFullyPeeled;
 
-        private void Awake() => ingredientBase = GetComponent<IngredientBase>();
+        private void Awake()
+        {
+            ingredientBase = GetComponent<IngredientBase>();
+            totalNeedles = GetComponentsInChildren<CactusNeedle>().Length;
+        }
 
         public void RegisterNeedleRemoved()
         {
