@@ -17,7 +17,7 @@ MonoBehaviour:
   recipeType: 0
   recipeIcon: {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
   requiredIngredients: []
-  resultPrefab: {fileID: 6269343989761181519, guid: 7c4d60fdbf3a3584dbd99fad2164fe06, type: 3}
+  resultPrefab: {fileID: 3982855939447651916, guid: 76395fa0446a73f45a35bdad5db08f13, type: 3}
   processingTime: 10
   steps:
   - {fileID: 21300000, guid: 67a8e381ce4a6c64a947a850c5325da7, type: 3}
