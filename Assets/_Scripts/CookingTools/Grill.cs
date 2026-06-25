@@ -47,6 +47,13 @@ namespace Wastepunk.Stations
 
         private void OnTriggerEnter(Collider other)
         {
+            IFuel fuel = other.GetComponentInParent<IFuel>();
+            if (fuel != null)
+            {
+                TryConsumeFuel(fuel);
+                return;
+            }
+
             ICookable cookable = other.GetComponentInParent<ICookable>();
             if (cookable != null)
                 TryAddItem(cookable);
@@ -70,6 +77,13 @@ namespace Wastepunk.Stations
         #endregion
 
         #region Logic
+
+        private void TryConsumeFuel(IFuel fuel)
+        {
+            AddFuel(fuel.FuelAmount);
+            fuel.Consume();
+            Debug.Log("Fuel consumed and added to grill.");
+        }
 
         private void TryAddItem(ICookable cookable)
         {

@@ -322,6 +322,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &856296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1374408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2295,6 +2308,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &17540799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17540793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &17955538
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +3935,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 123380267}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 123380271}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1450448510}
@@ -4800,6 +4829,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &34679083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34679077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &35616087
 GameObject:
   m_ObjectHideFlags: 0
@@ -5374,6 +5416,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &38217654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38217648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!4 &38327118 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2759245168485297341, guid: e0d71982c14000444ba11835f19404eb, type: 3}
@@ -5503,6 +5558,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1526976719}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1526976723}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1591631483}
@@ -6382,6 +6440,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &51111674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51111668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &51396311
 GameObject:
   m_ObjectHideFlags: 0
@@ -6692,6 +6763,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1746799459}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1746799463}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 58525960}
@@ -8643,6 +8717,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 69038779}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 69038783}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 69038778}
@@ -8876,6 +8953,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &69038783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69038777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &69169080
 GameObject:
   m_ObjectHideFlags: 0
@@ -12389,6 +12479,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &93854875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93854869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &94147824
 GameObject:
   m_ObjectHideFlags: 0
@@ -14071,6 +14174,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1373515976}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1373515980}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1864854338}
@@ -16073,6 +16179,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &121048765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121048759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &121064471
 GameObject:
   m_ObjectHideFlags: 0
@@ -16541,6 +16660,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &123380271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123380265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &123444470
 GameObject:
   m_ObjectHideFlags: 0
@@ -17886,6 +18018,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 913686802}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 913686806}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1463906045}
@@ -22629,6 +22764,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &159394221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159394215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &159512277
 GameObject:
   m_ObjectHideFlags: 0
@@ -23441,6 +23589,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &163877255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163877249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &164725233
 GameObject:
   m_ObjectHideFlags: 0
@@ -25428,6 +25589,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &188553167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188553161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &188709427
 GameObject:
   m_ObjectHideFlags: 0
@@ -27521,6 +27695,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1483132568}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483132572}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159978105}
@@ -31572,6 +31749,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 233214436}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 233214440}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 233214435}
@@ -31805,6 +31985,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &233214440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233214434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &233381906
 GameObject:
   m_ObjectHideFlags: 0
@@ -35226,6 +35419,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 248808663}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 248808667}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 248808662}
@@ -35459,6 +35655,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &248808667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248808661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &249563089
 GameObject:
   m_ObjectHideFlags: 0
@@ -36339,6 +36548,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1761651232}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1761651236}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1014556585}
@@ -37341,6 +37553,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &262066058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262066052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &262193858
 GameObject:
   m_ObjectHideFlags: 0
@@ -37579,6 +37804,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 93854871}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 93854875}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 337896302}
@@ -45430,6 +45658,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 488758931}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 488758935}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 479992784}
@@ -46025,6 +46256,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1447696444}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1447696448}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 203478382}
@@ -48788,6 +49022,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &337628918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337628912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &337775839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49696,6 +49943,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 341032487}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 341032491}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 341032486}
@@ -49929,6 +50179,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &341032491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341032485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &341468053
 GameObject:
   m_ObjectHideFlags: 0
@@ -50832,6 +51095,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 475739053}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 475739057}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2105815147}
@@ -52548,6 +52814,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 17540795}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 17540799}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1308773965}
@@ -52994,6 +53263,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1404162081}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1404162085}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 786616587}
@@ -53469,6 +53741,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &362962389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362962383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &363553403
 GameObject:
   m_ObjectHideFlags: 0
@@ -59103,6 +59388,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 368467854}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 368467858}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 368467853}
@@ -59336,6 +59624,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &368467858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368467852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &368980396
 GameObject:
   m_ObjectHideFlags: 0
@@ -59487,6 +59788,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1214816221}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1214816225}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 503207583}
@@ -62818,6 +63122,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &394350040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394350034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &394735580
 GameObject:
   m_ObjectHideFlags: 0
@@ -64614,6 +64931,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 594654939}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 594654943}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1985644899}
@@ -65246,6 +65566,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 410955865}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 410955869}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 410955864}
@@ -65479,6 +65802,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &410955869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410955863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &411115977
 GameObject:
   m_ObjectHideFlags: 0
@@ -68200,6 +68536,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &429137471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429137465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &429209874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68298,6 +68647,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 694796096}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 694796100}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 224038950}
@@ -71184,6 +71536,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &446476752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446476746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &446890301
 GameObject:
   m_ObjectHideFlags: 0
@@ -71493,6 +71858,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &447700715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447700709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &448287463
 GameObject:
   m_ObjectHideFlags: 0
@@ -74719,6 +75097,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &475739057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475739051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &475848795
 GameObject:
   m_ObjectHideFlags: 0
@@ -75119,6 +75510,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 540049668}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 540049672}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 880774620}
@@ -75221,6 +75615,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1426458659}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1426458663}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 871300754}
@@ -76010,6 +76407,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &487840950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487840944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &488068463
 GameObject:
   m_ObjectHideFlags: 0
@@ -76266,6 +76676,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &488758935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488758929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &489155252
 GameObject:
   m_ObjectHideFlags: 0
@@ -76917,6 +77340,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &493548725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493548719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &493794534
 GameObject:
   m_ObjectHideFlags: 0
@@ -78945,6 +79381,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &505207693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 505207687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &506519238
 GameObject:
   m_ObjectHideFlags: 0
@@ -79957,6 +80406,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 394350036}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 394350040}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 792361440}
@@ -84150,6 +84602,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &537719163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537719157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &537750332
 GameObject:
   m_ObjectHideFlags: 0
@@ -84621,6 +85086,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &540049672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540049666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &540147391
 GameObject:
   m_ObjectHideFlags: 0
@@ -87476,6 +87954,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1988730778}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1988730782}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1314257982}
@@ -90377,6 +90858,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 571131453}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 571131457}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 571131452}
@@ -90610,6 +91094,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &571131457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571131451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &571155117
 GameObject:
   m_ObjectHideFlags: 0
@@ -92787,6 +93284,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &581136950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581136944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &581999833
 GameObject:
   m_ObjectHideFlags: 0
@@ -93393,6 +93903,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1404852873}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1404852877}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1480511539}
@@ -94484,6 +94997,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &594654943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594654937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &595195601 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
@@ -94687,6 +95213,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &595195607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595195601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &595359503
 GameObject:
   m_ObjectHideFlags: 0
@@ -95155,6 +95694,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &597073123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597073117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &597661815
 GameObject:
   m_ObjectHideFlags: 0
@@ -96552,6 +97104,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &606826095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606826089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &606906474
 GameObject:
   m_ObjectHideFlags: 0
@@ -97057,6 +97622,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &608034712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608034706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &608479946
 GameObject:
   m_ObjectHideFlags: 0
@@ -98793,6 +99371,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &616845489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616845483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &617149766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
@@ -98917,6 +99508,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 487840946}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 487840950}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 910654395}
@@ -99468,6 +100062,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 337628914}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 337628918}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 10801968}
@@ -99755,6 +100352,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1298845010}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1298845014}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1759353923}
@@ -100100,6 +100700,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1271444391}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1271444395}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1767145350}
@@ -112906,6 +113509,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1382558401}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1382558405}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2039874506}
@@ -113292,6 +113898,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 597073119}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 597073123}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1342247238}
@@ -115069,6 +115678,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &694796100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694796094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &695713132
 GameObject:
   m_ObjectHideFlags: 0
@@ -115736,6 +116358,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &699370694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699370688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &699703708
 GameObject:
   m_ObjectHideFlags: 0
@@ -116584,6 +117219,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 159394217}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 159394221}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2030650927}
@@ -119199,6 +119837,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &730070252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730070246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &730363887
 GameObject:
   m_ObjectHideFlags: 0
@@ -119858,6 +120509,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 362962385}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 362962389}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 28332866}
@@ -121014,7 +121668,7 @@ MonoBehaviour:
   hungerDecreaseRate: 1
   correctFoodReward: 50
   wrongFoodPenalty: 30
-  timePerRequest: 200
+  timePerRequest: 400
 --- !u!1 &747867906
 GameObject:
   m_ObjectHideFlags: 0
@@ -122176,6 +122830,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 51111670}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 51111674}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2112784981}
@@ -123382,6 +124039,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1704475678}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1704475682}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 988815172}
@@ -124730,6 +125390,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &770997910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770997904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &771135386
 GameObject:
   m_ObjectHideFlags: 0
@@ -130770,6 +131443,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &799832330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799832324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &800056614
 GameObject:
   m_ObjectHideFlags: 0
@@ -130974,6 +131660,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1467546681}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1467546685}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2028245125}
@@ -131817,6 +132506,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &808491101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808491095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &810067868
 GameObject:
   m_ObjectHideFlags: 0
@@ -133222,6 +133924,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1535913763}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1535913767}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1572969797}
@@ -134065,6 +134770,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &828720299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828720293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &829188927
 GameObject:
   m_ObjectHideFlags: 0
@@ -135120,6 +135838,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 730070248}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 730070252}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 301337832}
@@ -137577,6 +138298,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 446476748}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 446476752}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1481167144}
@@ -139373,6 +140097,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 808491097}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 808491101}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1945748179}
@@ -139816,6 +140543,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 872329531}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 872329535}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 872329530}
@@ -140049,6 +140779,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &872329535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872329529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &872724696
 GameObject:
   m_ObjectHideFlags: 0
@@ -140683,6 +141426,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 799832326}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 799832330}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 958596207}
@@ -142664,6 +143410,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2024301093}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2024301097}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 651900559}
@@ -144770,6 +145519,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &894143936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894143930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &894437636
 GameObject:
   m_ObjectHideFlags: 0
@@ -147776,6 +148538,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1048733598}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1048733602}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1329566313}
@@ -148263,6 +149028,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &913686806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913686800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &913819219
 GameObject:
   m_ObjectHideFlags: 0
@@ -149823,6 +150601,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1372110905}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1372110909}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1299497669}
@@ -149978,6 +150759,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 931497155}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 931497159}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 931497154}
@@ -150211,6 +150995,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &931497159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931497153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &932292129
 GameObject:
   m_ObjectHideFlags: 0
@@ -150362,6 +151159,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1945241724}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1945241728}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 208651490}
@@ -154024,6 +154824,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1864104260}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1864104264}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 450218819}
@@ -157235,6 +158038,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1161096686}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1161096690}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 617149768}
@@ -159609,6 +160415,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1843327834}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1843327838}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1272456064}
@@ -161245,6 +162054,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1050831235}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1050831239}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 623224349}
@@ -164727,6 +165539,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 856292}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 856296}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 38726453}
@@ -165539,6 +166354,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1048733602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048733596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1048742876
 GameObject:
   m_ObjectHideFlags: 0
@@ -166416,6 +167244,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1050831239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050831233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1051099616
 GameObject:
   m_ObjectHideFlags: 0
@@ -177702,6 +178543,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1124533001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124532995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!64 &1125186989
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -178382,6 +179236,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 770997906}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 770997910}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 339241472}
@@ -179001,6 +179858,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 699370690}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 699370694}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1728379808}
@@ -181544,6 +182404,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1154646954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154646948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1156257454
 GameObject:
   m_ObjectHideFlags: 0
@@ -182714,6 +183587,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1161096690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161096684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1161543669
 GameObject:
   m_ObjectHideFlags: 0
@@ -183246,6 +184132,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1605584233}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1605584237}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1234793314}
@@ -185609,6 +186498,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 121048761}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 121048765}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1132510568}
@@ -185901,6 +186793,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 34679079}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 34679083}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1173172598}
@@ -186994,6 +187889,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1230146637}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1230146641}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 598607730}
@@ -187859,6 +188757,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1347901067}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1347901071}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1687135331}
@@ -188188,7 +189089,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 657184242161839409, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1196550559}
   m_SourcePrefab: {fileID: 100100000, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
 --- !u!20 &1196550556 stripped
 Camera:
@@ -188200,6 +189104,108 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 657184242118504721, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
   m_PrefabInstance: {fileID: 1196550555}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1196550558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 657184242161839409, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+  m_PrefabInstance: {fileID: 1196550555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1196550559
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196550558}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 5fa72ca7e378ec946a967317701ecfc8, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1196754892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -188674,6 +189680,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1198099651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198099645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1198162455
 GameObject:
   m_ObjectHideFlags: 0
@@ -189621,6 +190640,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1389631280}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1389631284}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 104253975}
@@ -190917,6 +191939,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1214816225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214816219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1214959759
 GameObject:
   m_ObjectHideFlags: 0
@@ -192380,6 +193415,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1496684796}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1496684800}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 925883577}
@@ -193295,6 +194333,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1230146641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230146635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1230162251
 GameObject:
   m_ObjectHideFlags: 0
@@ -194301,6 +195352,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1470742485}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1470742489}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1932460071}
@@ -199184,6 +200238,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1262917299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262917293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1262957063
 GameObject:
   m_ObjectHideFlags: 0
@@ -199708,6 +200775,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1266744774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266744768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1267725791
 GameObject:
   m_ObjectHideFlags: 0
@@ -200123,6 +201203,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1271444395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271444389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1272172924
 GameObject:
   m_ObjectHideFlags: 0
@@ -200337,6 +201430,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1262917295}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1262917299}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1994640084}
@@ -201308,6 +202404,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 595195603}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 595195607}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 739973020}
@@ -203012,6 +204111,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1377601368}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1377601372}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 636101407}
@@ -204740,6 +205842,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1298845014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298845008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1299069484
 GameObject:
   m_ObjectHideFlags: 0
@@ -206064,6 +207179,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1307254317}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1307254321}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1307254316}
@@ -206297,6 +207415,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1307254321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307254315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1307706756
 GameObject:
   m_ObjectHideFlags: 0
@@ -212249,6 +213380,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1347901071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347901065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &1348055967
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -212347,6 +213491,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1348055972}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1348055976}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1348055971}
@@ -212580,6 +213727,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1348055976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348055970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1348133615
 GameObject:
   m_ObjectHideFlags: 0
@@ -215448,6 +216608,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1372110909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372110903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1372269478
 GameObject:
   m_ObjectHideFlags: 0
@@ -215831,6 +217004,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1373515980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373515974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1373735123
 GameObject:
   m_ObjectHideFlags: 0
@@ -216193,6 +217379,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1377601372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377601366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1377998020
 GameObject:
   m_ObjectHideFlags: 0
@@ -217075,6 +218274,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1382558405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382558399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1382569639
 GameObject:
   m_ObjectHideFlags: 0
@@ -218096,6 +219308,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808725967}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808725971}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1658601803}
@@ -219300,6 +220515,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1389631284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389631278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1390265077
 GameObject:
   m_ObjectHideFlags: 0
@@ -220289,6 +221517,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 616845485}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 616845489}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 384763348}
@@ -221728,6 +222959,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1404162085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404162079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1404324480
 GameObject:
   m_ObjectHideFlags: 0
@@ -222037,6 +223281,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1404852877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404852871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1404897396
 GameObject:
   m_ObjectHideFlags: 0
@@ -225583,6 +226840,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 163877251}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 163877255}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 355483724}
@@ -225843,6 +227103,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1426458663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426458657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1426599688
 GameObject:
   m_ObjectHideFlags: 0
@@ -229346,6 +230619,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1447696448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447696442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1448075109
 GameObject:
   m_ObjectHideFlags: 0
@@ -232685,6 +233971,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1467546685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467546679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1467794842
 GameObject:
   m_ObjectHideFlags: 0
@@ -233243,6 +234542,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1470742489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470742483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1471696825
 GameObject:
   m_ObjectHideFlags: 0
@@ -234358,6 +235670,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 828720295}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 828720299}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1058598405}
@@ -234993,6 +236308,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1483132572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483132566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &1483230872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235280,6 +236608,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1483594374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483594368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1484161657
 GameObject:
   m_ObjectHideFlags: 0
@@ -235619,6 +236960,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 188553163}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 188553167}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1814359131}
@@ -237590,6 +238934,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1496684800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496684794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1497171121
 GameObject:
   m_ObjectHideFlags: 0
@@ -238586,6 +239943,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 537719159}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 537719163}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1162004621}
@@ -239195,6 +240555,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2126957852}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2126957856}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1186533094}
@@ -239440,6 +240803,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 262066054}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 262066058}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 515137041}
@@ -240925,6 +242291,67 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1518354355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 742.833
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 54.043
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 671.421
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_Name
+      value: f_skorupka
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 68ce264d734fbe94291a0edcba760a72, type: 3}
 --- !u!1 &1518419870
 GameObject:
   m_ObjectHideFlags: 0
@@ -242284,6 +243711,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1526976723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526976717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1527388114
 GameObject:
   m_ObjectHideFlags: 0
@@ -243511,6 +244951,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1977881264}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1977881268}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 288217238}
@@ -243988,6 +245431,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1535913767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535913761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1536471952
 GameObject:
   m_ObjectHideFlags: 0
@@ -246488,6 +247944,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2066542639}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2066542643}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 427410617}
@@ -247232,6 +248691,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2095287578}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2095287582}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1209489514}
@@ -247493,6 +248955,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1565697984}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1565697988}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1565697983}
@@ -247726,6 +249191,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1565697988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565697982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &1565808707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -250660,6 +252138,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 581136946}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 581136950}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 716259280}
@@ -252344,6 +253825,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1595299396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595299390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1595747991
 GameObject:
   m_ObjectHideFlags: 0
@@ -254650,6 +256144,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1605584237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605584231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1606180749
 GameObject:
   m_ObjectHideFlags: 0
@@ -256041,6 +257548,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1618575785}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1618575789}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1618575784}
@@ -256274,6 +257784,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1618575789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618575783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1619031029
 GameObject:
   m_ObjectHideFlags: 0
@@ -259295,6 +260818,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1639174805}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1639174809}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1639174804}
@@ -259528,6 +261054,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1639174809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639174803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1640005965
 GameObject:
   m_ObjectHideFlags: 0
@@ -260103,6 +261642,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1890432224}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1890432228}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1388111077}
@@ -261165,6 +262707,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1822838612}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1822838616}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 950419031}
@@ -268180,6 +269725,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1704475682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704475676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1705214173
 GameObject:
   m_ObjectHideFlags: 0
@@ -268596,6 +270154,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1707028656}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1707028660}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1707028655}
@@ -268829,6 +270390,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1707028660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707028654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1707253180
 GameObject:
   m_ObjectHideFlags: 0
@@ -270731,6 +272305,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1724657034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724657028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1725585646
 GameObject:
   m_ObjectHideFlags: 0
@@ -271721,6 +273308,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 894143932}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 894143936}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2119295389}
@@ -272607,6 +274197,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2051619019}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2051619023}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1833599312}
@@ -273185,6 +274778,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1740765996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740765990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1740969850
 GameObject:
   m_ObjectHideFlags: 0
@@ -274985,6 +276591,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1746799463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746799457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &1747144143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -277303,6 +278922,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1761651236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761651230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1761687612
 GameObject:
   m_ObjectHideFlags: 0
@@ -280621,6 +282253,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 38217650}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 38217654}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 402171431}
@@ -284125,6 +285760,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1808725971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808725965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1809127649
 GameObject:
   m_ObjectHideFlags: 0
@@ -286907,6 +288555,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1822838616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822838610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1822971006
 GameObject:
   m_ObjectHideFlags: 0
@@ -287148,6 +288809,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1823572225}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1823572229}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1823572224}
@@ -287381,6 +289045,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1823572229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823572223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1823642061
 GameObject:
   m_ObjectHideFlags: 0
@@ -289987,6 +291664,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1843327838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843327832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1843544909
 GameObject:
   m_ObjectHideFlags: 0
@@ -291233,6 +292923,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 505207689}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 505207693}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 461283764}
@@ -291432,6 +293125,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 608034708}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 608034712}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 910310878}
@@ -292557,6 +294253,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1266744770}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1266744774}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1550059396}
@@ -292870,6 +294569,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1864104264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864104258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1864854336 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
@@ -294340,6 +296052,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 447700711}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 447700715}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 953647591}
@@ -296156,6 +297871,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1890432228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890432222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1890504906
 GameObject:
   m_ObjectHideFlags: 0
@@ -296307,6 +298035,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1483594370}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1483594374}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1316472267}
@@ -299873,6 +301604,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 606826091}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 606826095}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 204942463}
@@ -300807,6 +302541,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2000948776}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2000948780}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 215713070}
@@ -303352,6 +305089,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1595299392}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1595299396}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 943268065}
@@ -303892,6 +305632,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1945241728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945241722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1945748177 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
@@ -305505,7 +307258,7 @@ MonoBehaviour:
   lifetimeProperty: Intensity_Lifetime
   maxLifetime: 1.85
   maxFuel: 100
-  fuelConsumptionRate: 0.05
+  fuelConsumptionRate: 0.5
 --- !u!65 &1958313300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -307488,6 +309241,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1973458854}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1973458858}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1973458853}
@@ -307721,6 +309477,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1973458858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973458852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1974359238
 GameObject:
   m_ObjectHideFlags: 0
@@ -308613,6 +310382,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1977881268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977881262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1977938971
 GameObject:
   m_ObjectHideFlags: 0
@@ -309631,6 +311413,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1988730782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988730776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1989190539
 GameObject:
   m_ObjectHideFlags: 0
@@ -310553,6 +312348,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1997167324}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1997167328}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1997167323}
@@ -310786,6 +312584,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1997167328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997167322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &1997447653
 GameObject:
   m_ObjectHideFlags: 0
@@ -311472,6 +313283,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2000948780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000948774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1001 &2001096175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -311570,6 +313394,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1724657030}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1724657034}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 210217043}
@@ -314623,6 +316450,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2020061560}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2020061564}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2020061559}
@@ -314856,6 +316686,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2020061564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020061558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &2020069833
 GameObject:
   m_ObjectHideFlags: 0
@@ -315562,6 +317405,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2024301097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024301091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &2025619959
 GameObject:
   m_ObjectHideFlags: 0
@@ -316169,6 +318025,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1198099647}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1198099651}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1023453361}
@@ -316271,6 +318130,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1124532997}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1124533001}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1039509605}
@@ -320834,6 +322696,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1740765992}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1740765996}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1518789689}
@@ -321094,6 +322959,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2051619023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051619017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &2051962656
 GameObject:
   m_ObjectHideFlags: 0
@@ -323137,6 +325015,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2066542643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066542637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &2066697318
 GameObject:
   m_ObjectHideFlags: 0
@@ -327225,6 +329116,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2095287582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095287576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &2095540774
 GameObject:
   m_ObjectHideFlags: 0
@@ -327800,6 +329704,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1154646950}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1154646954}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1484590104}
@@ -329027,6 +330934,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 493548721}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 493548725}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 342476797}
@@ -330878,6 +332788,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 429137467}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 429137471}
     - targetCorrespondingSourceObject: {fileID: -4648927231956106286, guid: 0180f3c81c397a349ae980f2c7c6918a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 483937401}
@@ -332631,6 +334544,19 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &2126957856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126957850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482c68e104dd6f46b80165b41d83d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Items.FuelItem
+  fuelAmount: 40
 --- !u!1 &2127203840
 GameObject:
   m_ObjectHideFlags: 0
@@ -346212,3 +348138,4 @@ SceneRoots:
   - {fileID: 1483230872}
   - {fileID: 299328234}
   - {fileID: 515962890}
+  - {fileID: 1518354355}
