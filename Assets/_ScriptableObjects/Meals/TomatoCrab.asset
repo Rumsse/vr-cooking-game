@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b8c9eadee06a4c8219e7c608ca1a9, type: 3}
+  m_Name: TomatoCrab
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Recipes.RecipeData
+  recipeId: tomatoCrab
+  recipeName: Crab in Tomato Sauce
+  recipeType: 0
+  recipeIcon: {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
+  requiredIngredients:
+  - IngredientData: {fileID: 11400000, guid: 76087c7d9dbb4ef47b4657be46b2169b, type: 2}
+    RequiredState: 104
+    Amount: 4
+  - IngredientData: {fileID: 11400000, guid: cf3d0adc1e39e264f8cd8849dcb88858, type: 2}
+    RequiredState: 88
+    Amount: 4
+  resultPrefab: {fileID: 6269343989761181519, guid: 7c4d60fdbf3a3584dbd99fad2164fe06, type: 3}
+  processingTime: 10
+  steps:
+  - {fileID: 21300000, guid: ada4abce56738d7428b53f1463272200, type: 3}
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
+  - {fileID: 21300000, guid: e247906dd70f6524592a4415be4a58a6, type: 3}
+  - {fileID: 21300000, guid: a7ee45a9653976546be0e034c6df4ff3, type: 3}
+  - {fileID: 21300000, guid: 049e66a4cae46994ebf3b950e4abfc90, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: 9546b46c99cef41498a34f45342ba138, type: 3}
+  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: ada4abce56738d7428b53f1463272200, type: 3}
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: 9607d6e94b0886f41ab594088958a9fd, type: 3}
+  - {fileID: 21300000, guid: e247906dd70f6524592a4415be4a58a6, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: 9546b46c99cef41498a34f45342ba138, type: 3}

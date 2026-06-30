@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b8c9eadee06a4c8219e7c608ca1a9, type: 3}
+  m_Name: BeetrootMush
+  m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Recipes.RecipeData
+  recipeId: beetrootmush
+  recipeName: Beefy Beetroot Mush
+  recipeType: 0
+  recipeIcon: {fileID: 21300000, guid: e62a113e674d4fe48b45fecaa07978aa, type: 3}
+  requiredIngredients:
+  - IngredientData: {fileID: 11400000, guid: 2b7655a44bb3fe3448435d564fbf5676, type: 2}
+    RequiredState: 88
+    Amount: 1
+  - IngredientData: {fileID: 11400000, guid: f610f51bcc862c341b3e4ee680596d39, type: 2}
+    RequiredState: 80
+    Amount: 3
+  - IngredientData: {fileID: 11400000, guid: 364d2eb966ead5e438a46aa8e90a4539, type: 2}
+    RequiredState: 80
+    Amount: 1
+  resultPrefab: {fileID: 3982855939447651916, guid: 76395fa0446a73f45a35bdad5db08f13, type: 3}
+  processingTime: 10
+  steps:
+  - {fileID: 21300000, guid: 4742c42db0791db48a7433bab2cc63de, type: 3}
+  - {fileID: 21300000, guid: 67a8e381ce4a6c64a947a850c5325da7, type: 3}
+  - {fileID: 21300000, guid: e247906dd70f6524592a4415be4a58a6, type: 3}
+  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: 9b4670a2156bb8a49b1c5c22a379aeb2, type: 3}
+  - {fileID: 21300000, guid: e62a113e674d4fe48b45fecaa07978aa, type: 3}
+  - {fileID: 21300000, guid: e247906dd70f6524592a4415be4a58a6, type: 3}
+  - {fileID: 21300000, guid: 6cc2c5973072b3d45b9596842813d5d8, type: 3}
+  - {fileID: 21300000, guid: 709705985ca6e98438f7febc83cea1c5, type: 3}
+  - {fileID: 21300000, guid: e247906dd70f6524592a4415be4a58a6, type: 3}
+  - {fileID: 21300000, guid: e1769f9475ee24f4eabc7ff1024a5c54, type: 3}
+  - {fileID: 21300000, guid: 9546b46c99cef41498a34f45342ba138, type: 3}

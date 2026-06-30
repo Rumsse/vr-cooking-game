@@ -94,7 +94,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0845e7ae200a0a042af1f2bbc588a995, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -398,7 +398,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0845e7ae200a0a042af1f2bbc588a995, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -622,6 +622,7 @@ GameObject:
   - component: {fileID: 8488980722538076936}
   - component: {fileID: 6314273080678739587}
   - component: {fileID: 4196172059419574373}
+  - component: {fileID: 9024872698428410528}
   m_Layer: 0
   m_Name: Cactus_Prototype
   m_TagString: Untagged
@@ -639,7 +640,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7486339143529750015}
@@ -702,6 +703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0307824acb86b40bb14c0ad204c096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Cooking.Cactus
+  sliceableLayerName: Sliceable
   totalNeedles: 5
 --- !u!136 &6314273080678739587
 CapsuleCollider:
@@ -855,6 +857,19 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &9024872698428410528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5286165986259227140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1be38d2ae29084484c2f6a81c0e1a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SliceableProperties
+  innerMaterial: {fileID: 2100000, guid: 4dc7c65f7bfc3b64bb749ed34325d115, type: 2}
 --- !u!1 &6610801687172727453
 GameObject:
   m_ObjectHideFlags: 0
@@ -949,7 +964,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0845e7ae200a0a042af1f2bbc588a995, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1225,7 +1240,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1c143d52e37783642bcbbbff15f15754, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1343,7 +1358,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0845e7ae200a0a042af1f2bbc588a995, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1647,7 +1662,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 0845e7ae200a0a042af1f2bbc588a995, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
