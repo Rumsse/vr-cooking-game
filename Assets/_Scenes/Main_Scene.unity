@@ -152503,11 +152503,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbbe52aa6161280408fd4687ef02b528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wastepunk.Creatures.WormController
-  maxHunger: 100
+  maxHunger: 200
   hungerDecreaseRate: 1
-  correctFoodReward: 180
+  correctFoodReward: 100
   wrongFoodPenalty: 50
-  timePerRequest: 600
+  timePerRequest: 1400
 --- !u!1 &747867906
 GameObject:
   m_ObjectHideFlags: 0
